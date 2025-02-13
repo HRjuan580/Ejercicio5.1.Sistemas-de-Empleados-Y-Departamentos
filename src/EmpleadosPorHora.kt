@@ -1,0 +1,6 @@
+class EmpleadosPorHora() {
+
+    fun calcularSalario(){
+
+    }
+}

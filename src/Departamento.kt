@@ -1,0 +1,6 @@
+class Departamento() {
+
+    fun calcularSalarioTotal(){
+
+    }
+}

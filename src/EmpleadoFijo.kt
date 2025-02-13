@@ -1,0 +1,6 @@
+class EmpleadoFijo() {
+
+    fun calcularSalario(){
+
+    }
+}
