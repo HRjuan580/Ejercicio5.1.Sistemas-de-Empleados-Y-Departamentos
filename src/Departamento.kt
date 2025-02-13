@@ -1,10 +1,4 @@
-class Departamento() {
-
-    fun agregarEmpleado(){
-
-    }
-    fun calcularSalario(){
-
-    }
+class Departamento(private val empleados: mutableListOf<Empleado>()
+){
 
 }
