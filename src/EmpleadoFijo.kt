@@ -1,5 +1,5 @@
-class EmpleadoFijo(nombre: String, id: Int, private val salarioAnual: Double,
-                   private val tarifaHora: Double): Empleado(nombre, id) {
-
-
+class EmpleadoFijo(nombre: String, id: Int, val salarioFijo: Double, val numPagas: Int) : Empleado(nombre, id) {
+    override fun calculaSalario(): Double {
+        return salarioFijo / numPagas
+    }
 }
